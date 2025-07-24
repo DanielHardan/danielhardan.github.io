@@ -1,4 +1,5 @@
 title: My GitHub Blog
 description: A simple Jekyll blog hosted with GitHub Pages
-theme: minima
-remote_theme: daattali/beautiful-jekyll@master
+remote_theme: cotes2020/chirpy-starter
+paginate: 5
+paginate_path: /page:num/
