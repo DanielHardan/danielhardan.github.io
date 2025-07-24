@@ -23,7 +23,7 @@ This site serves as a platform for sharing insights about healthcare data, techn
 
 The website is built with:
 - **Jekyll** - Static site generator for fast, reliable performance
-- **Chirpy Theme** - Clean, professional design focused on content
+- **Custom Design** - Clean, professional design focused on content
 - **GitHub Pages** - Reliable hosting with continuous deployment
 
 ### Content Focus

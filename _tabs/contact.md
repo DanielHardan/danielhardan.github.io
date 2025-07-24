@@ -34,4 +34,4 @@ I aim to respond to professional inquiries within 2-3 business days. For urgent 
 
 ---
 
-*This site is built with Jekyll and the Chirpy theme, focusing on clean, accessible content delivery.*
+*This site is built with Jekyll, focusing on clean, accessible content delivery.*
