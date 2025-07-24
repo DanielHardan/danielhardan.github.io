@@ -1,26 +1,13 @@
 ---
-layout: single
-title: "A Comprehensive Framework for Healthcare Data Quality"
-date: 2025-07-24
-categories:
-  - Healthcare
-  - Data Quality
-  - Technology
-tags:
-  - healthcare
-  - data-science
-  - quality-assurance
-  - frameworks
-excerpt: "Exploring a comprehensive approach to ensuring data quality in healthcare systems"
-header:
-  teaser: /assets/images/healthcare-data.jpg
-  overlay_color: "#333"
-toc: true
-toc_label: "Contents"
-toc_icon: "cog"
+title: A Comprehensive Framework for Healthcare Data Quality
+date: 2025-01-15 10:00:00 -0500
+categories: [Healthcare, Data Quality]
+tags: [healthcare, data-quality, governance, healthcare-it, data-management]
+pin: false
+math: false
+mermaid: false
+description: Exploring a comprehensive approach to ensuring data quality in healthcare systems
 ---
-
-## Introduction
 
 Healthcare data quality is paramount to ensuring accurate diagnoses, effective treatments, and reliable research outcomes. This post outlines a comprehensive framework for maintaining and improving data quality in healthcare systems.
 
@@ -39,6 +26,7 @@ In healthcare environments, poor data quality can lead to:
 ### 1. Data Governance
 
 Establishing clear policies and procedures for data management, including:
+
 - Data ownership and stewardship roles
 - Data quality standards and metrics
 - Regular auditing processes
@@ -62,4 +50,4 @@ Implementing a comprehensive data quality framework in healthcare requires a mul
 
 ---
 
-*What are your thoughts on healthcare data quality? Share your experiences in the comments below.*
+*What are your thoughts on healthcare data quality? Feel free to connect with me to discuss your experiences and insights.*

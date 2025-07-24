@@ -1,37 +1,124 @@
-# Daniel Hardan's Blog
+# Daniel Hardan's Personal Website
 
-This is my personal blog built with Jekyll and the Minimal Mistakes theme, hosted on GitHub Pages.
+A professional personal website and blog built with Jekyll and the Chirpy theme, hosted on GitHub Pages.
 
-## About
+## Features
 
-A blog covering topics in:
-- Healthcare technology
-- Data quality frameworks
-- Software development
-- Technology innovation
+- **Clean, professional design** using the Chirpy Jekyll theme
+- **Responsive layout** that works perfectly on all devices
+- **Fast, optimized performance** with Jekyll static site generation
+- **SEO-friendly** with built-in optimization and social media integration
+- **Blog functionality** with categories, tags, and search
+- **GitHub Pages compatible** with automated deployment
 
-## Setup
+## Structure
 
-This site uses:
-- Jekyll static site generator
-- Minimal Mistakes theme
-- GitHub Pages for hosting
+```
+├── _config.yml            # Site configuration
+├── _posts/                # Blog posts in Markdown
+├── _tabs/                 # Static pages (About, Contact, etc.)
+├── _data/                 # Data files for site configuration
+├── assets/                # CSS, JS, and images
+├── Gemfile                # Ruby dependencies
+└── index.html             # Homepage layout
+```
+
+## Pages
+
+### Home (`index.html`)
+The main landing page featuring:
+- Recent blog posts
+- Professional introduction
+- Clean, welcoming design with the Chirpy theme
+
+### Blog
+Accessible through the navigation, featuring:
+- All blog posts with categorization
+- Tag and category filtering
+- Search functionality
+- Archive organization
+
+### About (`_tabs/about.md`)
+Professional information including:
+- Professional background and expertise
+- Technology focus areas
+- Information about the website
+
+### Contact (`_tabs/contact.md`)
+Contact information and networking:
+- Professional networking links
+- Areas of collaboration interest
+- Response expectations
+
+## Blog Posts
+
+Currently includes:
+- **A Comprehensive Framework for Healthcare Data Quality** - A detailed post about ensuring data quality in healthcare systems
+
+## Technologies Used
+
+- **Jekyll** - Static site generator
+- **Chirpy Theme** - Professional Jekyll theme
+- **Ruby/Gems** - Dependency management
+- **Markdown** - Content writing format
+- **GitHub Pages** - Hosting and deployment
 
 ## Local Development
 
-To run locally:
+### Prerequisites
+- Ruby (3.0 or higher)
+- Jekyll
+- Bundler
 
+### Setup
 ```bash
+# Install dependencies
 bundle install
+
+# Build the site
+bundle exec jekyll build
+
+# Start development server
 bundle exec jekyll serve
+
+# Or use the provided tools
+./tools/run.sh    # Start server with live reload
+./tools/test.sh   # Build for production
 ```
 
-Then visit `http://localhost:4000`
+The site will be available at `http://localhost:4000`
 
-## Contributing
+## Deployment
 
-Feel free to open issues or submit pull requests for improvements.
+This site is configured for GitHub Pages deployment. Simply push to the main branch and GitHub Actions will automatically build and deploy the site.
+
+## Customization
+
+The site uses the Chirpy theme configuration in `_config.yml`. Key customization points:
+
+- Site information: Title, description, and social links in `_config.yml`
+- Content: Pages in `_tabs/` and posts in `_posts/`
+- Styling: Theme customization through Chirpy's built-in options
+- Navigation: Automatically generated from `_tabs/` files
+
+## Writing Blog Posts
+
+Create new posts in the `_posts/` directory with the filename format:
+```
+YYYY-MM-DD-title-with-hyphens.md
+```
+
+Include front matter with title, date, categories, and tags:
+```yaml
+---
+title: Your Post Title
+date: YYYY-MM-DD HH:MM:SS -0500
+categories: [Category1, Category2]
+tags: [tag1, tag2, tag3]
+description: Brief description for SEO
+---
+```
 
 ## License
 
-Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+© 2025 Daniel Hardan. All rights reserved.
