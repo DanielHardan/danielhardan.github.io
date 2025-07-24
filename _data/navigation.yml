@@ -1,0 +1,7 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "About"
+    url: /about/
+  - title: "GitHub"
+    url: https://github.com/DanielHardan
