@@ -8,46 +8,115 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="/" class="nav-brand">Daniel Hardan</a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="blog.html" class="nav-link">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link active">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Sidebar -->
+    <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+        <header class="profile-wrapper">
+            <a href="/" id="avatar" class="rounded-circle">
+                <!-- You can add an avatar image here if you have one -->
+            </a>
+
+            <a class="site-title d-block" href="/">Daniel Hardan</a>
+            <p class="site-subtitle fst-italic mb-0">a simple website for sharing thoughts</p>
+        </header>
+
+        <nav class="sidebar-nav flex-column flex-grow-1 w-100 ps-0">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>HOME</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">
+                        <i class="fas fa-blog"></i>
+                        <span>BLOG</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>ABOUT</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>CONTACT</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-    </header>
 
-    <main class="main-content">
-        <div class="container">
-            <article class="page-content">
-                <header class="page-header">
-                    <h1>About</h1>
-                </header>
+        <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+            <button type="button" class="sidebar-btn" aria-label="Switch Mode" id="mode-toggle">
+                <i class="fas fa-adjust"></i>
+            </button>
+        </div>
+    </aside>
 
-                <div class="about-content">
-                    <div class="about-intro">
-                        <p>Hello! I'm Daniel Hardan, and I'm passionate about technology, healthcare data quality, and building systems that make a meaningful impact.</p>
+    <!-- Mobile topbar -->
+    <div id="topbar">
+        <button id="sidebar-trigger" aria-label="Toggle sidebar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div id="topbar-title">About</div>
+    </div>
+
+    <!-- Mobile mask -->
+    <div id="mask" class="d-none"></div>
+
+    <!-- Main content wrapper -->
+    <div id="main-wrapper">
+        <main class="main-content">
+            <div class="container">
+                <article class="page-content">
+                    <header class="hero">
+                        <h1 class="hero-title">About</h1>
+                    </header>
+
+                    <div class="about-content">
+                        <div class="about-intro">
+                            <p>Hello! I'm Daniel Hardan, and I'm passionate about technology, healthcare data quality, and building systems that make a meaningful impact.</p>
+                        </div>
+
+                        <section class="about-section">
+                            <h2>Background</h2>
+                            <p>I work at the intersection of technology and healthcare, focusing on data quality frameworks, system architecture, and process improvement. My experience spans various domains, from healthcare informatics to software development.</p>
+                        </section>
+
+                        <section class="about-section">
+                            <h2>What I Do</h2>
+                            <p>My work involves developing comprehensive frameworks for healthcare data quality, implementing robust systems for data validation and monitoring, and creating solutions that help organizations maintain high standards for their data assets.</p>
+                        </section>
+
+                        <section class="about-section">
+                            <h2>Interests</h2>
+                            <p>When I'm not working on data quality frameworks or system architecture, I enjoy exploring new technologies, reading about industry best practices, and sharing knowledge through writing and speaking opportunities.</p>
+                        </section>
+
+                        <section class="about-section">
+                            <h2>This Website</h2>
+                            <p>This website serves as a platform for me to share thoughts, insights, and experiences from my work in technology and healthcare. I write about data quality, system design, and other topics that I find interesting or useful to the community.</p>
+                        </section>
                     </div>
+                </article>
+            </div>
+        </main>
 
-                    <section class="about-section">
-                        <h2>Background</h2>
-                        <p>I work at the intersection of technology and healthcare, focusing on data quality frameworks, system architecture, and process improvement. My experience spans various domains, from healthcare informatics to software development.</p>
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; 2025 Daniel Hardan. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
                     </section>
 
                     <section class="about-section">
