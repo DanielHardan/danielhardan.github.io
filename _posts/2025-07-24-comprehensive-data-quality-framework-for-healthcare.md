@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Comprehensive Data Quality Framework for Healthcare"
+title: "A Comprehensive Framework for Healthcare Data Quality"
 date: 2025-07-24
 ---
 

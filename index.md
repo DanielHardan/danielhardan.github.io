@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Main
+title: "Welcome"
 ---
 
 Welcome to my Jekyll site on GitHub Pages!

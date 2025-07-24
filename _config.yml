@@ -1,5 +1,5 @@
 title: My GitHub Blog
 description: A simple Jekyll blog hosted with GitHub Pages
-remote_theme: cotes2020/chirpy-starter
-paginate: 5
-paginate_path: /page:num/
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-include-cache
