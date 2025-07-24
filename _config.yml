@@ -14,12 +14,12 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Daniel Hardan # the main title
+title: Dan Hardan # the main title
 
 tagline: Personal Website & Blog # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Daniel Hardan's personal website featuring insights on healthcare data, technology, and professional development.
+  Dan Hardan's personal website featuring insights on healthcare data, technology, and professional development.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Daniel Hardan
+  name: Dan Hardan
   email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -97,7 +97,8 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/transformer.png
+# avatar: /assets/img/transformer.png # Commented out to use light/dark mode avatars
+avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

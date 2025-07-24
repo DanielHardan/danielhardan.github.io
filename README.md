@@ -1,4 +1,4 @@
-# Daniel Hardan's Personal Website
+# Dan Hardan's Personal Website
 
 A professional personal website and blog built with Jekyll and the Chirpy theme, hosted on GitHub Pages.
 
@@ -121,4 +121,4 @@ description: Brief description for SEO
 
 ## License
 
-© 2025 Daniel Hardan. All rights reserved.
+© 2025 Dan Hardan. All rights reserved.
