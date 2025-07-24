@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to My Blog"
+title: "A Comprehensive Data Quality Framework for Healthcare"
 date: 2025-07-24
 ---
 
