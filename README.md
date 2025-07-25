@@ -107,7 +107,3 @@ tags: [tag1, tag2, tag3]
 description: Brief description for SEO
 ---
 ```
-
-## License
-
-© 2025 Dan Hardan. All rights reserved.
