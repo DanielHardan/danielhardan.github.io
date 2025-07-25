@@ -33,7 +33,3 @@ You'll find articles covering:
 - Technology solutions for healthcare challenges
 - Professional development in healthcare IT
 - Industry trends and best practices
-
-### Connect
-
-I'm always interested in connecting with other professionals in healthcare technology. Check out the [Contact](/contact/) page for ways to get in touch.
