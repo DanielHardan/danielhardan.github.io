@@ -1,0 +1,81 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/_site": true,
+            "Gemfile.lock": true,
+            "**/.jekyll-cache": true
+        },
+        // Prettier
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        // Shopify Liquid
+        "files.associations": {
+            "*.html": "liquid"
+        },
+        "[markdown]": {
+            "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        },
+        // Formatter
+        "[html][liquid]": {
+            "editor.defaultFormatter": "Shopify.theme-check-vscode"
+        },
+        "[shellscript]": {
+            "editor.defaultFormatter": "mkhl.shfmt"
+        },
+        // Disable vscode built-in stylelint
+        "css.validate": false,
+        "scss.validate": false,
+        "less.validate": false,
+        // Stylint extension settings
+        "stylelint.snippet": [
+            "css",
+            "scss"
+        ],
+        "stylelint.validate": [
+            "css",
+            "scss"
+        ],
+        // Run tasks in macOS
+        "terminal.integrated.profiles.osx": {
+            "zsh": {
+                "path": "/bin/zsh",
+                "args": [
+                    "-l",
+                    "-i"
+                ]
+            }
+        }
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Run Jekyll Server",
+                "type": "shell",
+                "command": "bundle exec jekyll serve",
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": [],
+                "detail": "Runs the Jekyll server with live reload."
+            },
+            {
+                "label": "Build Jekyll Site",
+                "type": "shell",
+                "command": "bundle exec jekyll build",
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": [],
+                "detail": "Build the Jekyll site for production."
+            }
+        ]
+    }
+}

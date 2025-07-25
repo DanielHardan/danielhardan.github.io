@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Dan Hardan # the main title
 
-tagline: Personal Website & Blog # it will display as the subtitle
+tagline: "Advancing Healthcare Quality Through AI/ML" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Dan Hardan's personal website featuring insights on healthcare data, technology, and professional development.
@@ -41,7 +41,7 @@ social:
     - https://github.com/DanielHardan # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/danielhardan
 
 # Site Verification Settings
 webmaster_verifications:
