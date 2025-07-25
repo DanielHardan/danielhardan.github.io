@@ -50,11 +50,6 @@ Contact information and networking:
 - Areas of collaboration interest
 - Response expectations
 
-## Blog Posts
-
-Currently includes:
-- **A Comprehensive Framework for Healthcare Data Quality** - A detailed post about ensuring data quality in healthcare systems
-
 ## Technologies Used
 
 - **Jekyll** - Static site generator
