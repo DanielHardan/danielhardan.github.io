@@ -44,12 +44,6 @@ Professional information including:
 - Technology focus areas
 - Information about the website
 
-### Contact (`_tabs/contact.md`)
-Contact information and networking:
-- Professional networking links
-- Areas of collaboration interest
-- Response expectations
-
 ## Technologies Used
 
 - **Jekyll** - Static site generator
