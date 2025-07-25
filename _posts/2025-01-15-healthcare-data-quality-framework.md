@@ -1,7 +1,7 @@
 ---
 title: Probabilistic Methods for Data Quality in Healthcare  
 date: 2025-01-15 10:00:00 -0500  
-categories: [Healthcare, Data Quality]  
+categories: [Healthcare, Data Quality, AI]  
 tags: [healthcare, data-quality, ai, anomaly-detection, data-governance, data-science]  
 pin: false  
 math: false  

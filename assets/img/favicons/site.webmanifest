@@ -1,3 +1,8 @@
+---
+layout: compress
+# The option `layout: compress` will remove excess whitespace. See: https: //jch.penibelst.de/
+---
+
 {
   "name": "Dan Hardan",
   "short_name": "Dan Hardan",
