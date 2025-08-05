@@ -1,12 +1,12 @@
 ---
-title: Probabilistic Methods for Data Quality in Healthcare  
-date: 2025-01-15 10:00:00 -0500  
-categories: [Healthcare, Data Quality, AI]  
+title: Probabilistic Methods for Data Quality in Healthcare
+date: 2025-07-29
+categories: [Healthcare, Data Quality, AI]
 tags: [healthcare, data-quality, ai, anomaly-detection, data-governance, data-science]  
 pin: false  
 math: false  
 mermaid: false  
-description: Integrating AI-Powered Anomaly Detection into Existing Healthcare Data Quality Frameworks  
+description: Exploring the pragmatic application of AI models for detecting data quality issues in healthcare.
 ---
 
 Ensuring data quality in healthcare is no longer just about rule-based validations—it now requires intelligent systems capable of adapting to complexity and scale. In this post, we explore how **probabilistic methods and AI-driven anomaly detection** can enhance traditional data quality frameworks, making them more responsive, scalable, and effective in real-world healthcare environments.
